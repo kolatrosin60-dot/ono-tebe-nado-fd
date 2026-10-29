@@ -1,19 +1,5 @@
 
 
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
-body {
-  font-family: 'Raleway', sans-serif;
-  color: #000000;
-	width: 1100px;
-  margin: 0 auto;
-}
-
-
 .header {
   max-width: 1100px;
   margin: 0 auto;
@@ -89,33 +75,33 @@ body {
   object-fit: contain;
 }
 
-.header-address {
-  justify-self: end;
-
+.address {
   width: 240px;
   margin: 0;
-
   font-style: normal;
+  font-family: 'Raleway', sans-serif;
   font-size: 18px;
   line-height: 24px;
 }
 
-.contact-item {
+.address p {
   margin: 0;
 }
 
-.contact-link {
+.address a {
   color: #000000;
   text-decoration: underline;
   text-underline-offset: 4px;
 }
 
+.header__address {
+  justify-self: end;
+}
 
 .cover {
   position: relative;
 
   max-width: 1100px;
-  height: 757px;
   margin: 0 auto;
   padding: 165px 50px 50px;
 
@@ -143,9 +129,7 @@ body {
 .main-title {
   display: flex;
   flex-direction: column;
-
-  margin: 0;
-
+  margin-top: 20px;
   color: #ffffff;
   font-size: 100px;
   line-height: 1.15;
@@ -386,23 +370,11 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 
-.footer-contacts {
-  width: 240px;
 
-  font-style: normal;
-  font-size: 18px;
-  line-height: 24px;
-}
 
-.footer-contacts p {
-  margin: 0;
-}
 
-.footer-contacts a {
-  color: #000000;
-  text-decoration: underline;
-  text-underline-offset: 4px;
-}
+
+
 
 .footer-nav {
   justify-self: center;
